@@ -13,8 +13,8 @@ function incF(){/* funcion del boton  incremento del contador */
 }
 function saveF(){ /*funcion del boton guardar */
  let countStr=contador+ " - " 
-  saveEl.innerText+=countStr;
-  console.log(contador)
+  saveEl.textContent+=countStr;
+  
 
 }
 saveF()
